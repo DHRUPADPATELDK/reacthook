@@ -36,14 +36,6 @@ const UseReducer = () => {
 export default UseReducer
 
 
-
-
-
-
-
-
-
-
 /*  In JavaScript Reduce method :- The first and most important thing to understand about a reducer is that 
 it will always only return one value. The job of a reducer is to reduce. 
 That one value can be a number, a string, an array or an object, 

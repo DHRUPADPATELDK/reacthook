@@ -5,7 +5,7 @@ const BioData = createContext();
 
 const ComA = () => {
     return (
-        <BioData.Provider value={"sunny Technical Subs"}>
+        <BioData.Provider value={"sunny  Subs"}>
             <ComB />
         </BioData.Provider>
     ) 

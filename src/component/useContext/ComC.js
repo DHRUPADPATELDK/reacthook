@@ -9,3 +9,6 @@ const Comc = ({ name }) => {
 export default Comc
 
 // consumer
+
+
+

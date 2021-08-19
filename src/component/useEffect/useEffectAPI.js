@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Loading from './github/loading';
 import GithubUsers from "./github/githubUsers";
+
 const UseEffectAPI = () => {
     
     const [users, setUsers] = useState([]);
@@ -23,7 +24,6 @@ const UseEffectAPI = () => {
     }, []);
 
     
-
     if (loading) {
         return <Loading />
     }
